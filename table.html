@@ -96,6 +96,12 @@
 			var row1 = table1.rows[i];
 			row1.cells[i].style.backgroundColor = "green";
 		}
+		var table2 = document.body.children[1];
+		var l = table2.rows.length - 1;
+		for (var i = 0; i <= l; i++) {
+			var row2 = table2.rows[l - i];
+			row2.cells[i].style.backgroundColor = "green";
+		}
 	</script>
 </body>
 </html>
